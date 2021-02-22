@@ -1,0 +1,42 @@
+Table. Products.
+id
+name
+unit: enum('ml','strip','vial')
+manufactureDate
+importDate
+expireDate
+manufacturer_id
+price_id
+comment
+
+Table. ProductsPricing.
+id
+products_id
+pricing
+
+Table. Manufacturers.
+id
+name
+mfgLicense
+address
+
+Table. Fharmacy.
+id
+name
+rif
+address
+license
+
+Table. Organization.
+id
+name
+rif
+address
+license
+
+Table. Census.
+id
+censusDate
+censusName
+censusDescription
+otherDetails
